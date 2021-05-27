@@ -25,7 +25,7 @@
     "clean-css-brunch": "~1.6.0",
     "coffee-script": "~1.6.3",
     "coffee-script-brunch": "~1.7.2",
-    "less": "~1.5.1",
+    "less": "~1.7.5",
     "less-brunch": "~1.7.1",
     "nunjucks": "~1.0.0",
     "nunjucks-brunch": "^0.2.0",
