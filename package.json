@@ -15,20 +15,24 @@
     "start": "brunch watch --server",
     "build": "brunch build",
     "build-optimize": "brunch build --production",
-    "watch": "brunch watch"
+    "watch": "brunch watch",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "brunch": "~1.7.13",
+    "brunch": "~3.0.0",
     "javascript-brunch": "~1.6.0",
     "css-brunch": "~1.6.0",
-    "uglify-js-brunch": "~1.7.2",
-    "clean-css-brunch": "~1.6.0",
+    "uglify-js-brunch": "~2.0.1",
+    "clean-css-brunch": "~3.0.0",
     "coffee-script": "~1.6.3",
     "coffee-script-brunch": "~1.7.2",
     "less": "~1.5.1",
-    "less-brunch": "~1.7.1",
-    "nunjucks": "~1.0.0",
+    "less-brunch": "~1.8.0",
+    "nunjucks": "~3.2.3",
     "nunjucks-brunch": "^0.2.0",
-    "bower": "~1.2.8"
-  }
+    "bower": "~1.8.8",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
