@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - less-brunch > less > mime:
+        patched: '2024-09-17T04:56:15.205Z'
+        id: 'npm:mime:20170907'
+        path: less-brunch > less > mime
